@@ -1,0 +1,71 @@
+body{
+    font: ;
+    color: azure ;
+    background-color: rgb(32, 30, 30);
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+}
+.container{
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+}
+header{
+    background-image: #050400;
+    color:#eae9e4;
+    padding-top:10px;
+    min-width:70px;
+    border-bottom:#e8491d 3px solid;
+}
+header #branding{
+    float: left;
+}
+header ul{
+    margin: 0;
+    padding: 0;
+}
+header li{
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+header nav{
+    float: right;
+    margin-top: 10px;
+}
+.flexcontainer{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-family: sans-serif;
+}
+.card{
+    border-radius: 30px;
+    border: 2px solid white;
+    display: flex;
+    padding: 30px;
+    gap: 10px;
+    width: 300px;
+    flex-direction: column;
+}
+.quote{
+    font-size: 20px;
+    font-weight: 500px;
+}
+.author{
+    font-size: 15px;
+    color:rgb(144, 145, 145);
+}
+.title{
+    font-size: 15px;
+    margin-top: -10px;
+    color: rgb(189, 189, 189);
+}
+footer{
+    padding:05px;
+    margin-top:30px;
+    text-align:center;  
+    color: rgb(214, 214, 214);
+    border-top:#e8491d 3px solid;
+}
